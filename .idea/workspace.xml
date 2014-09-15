@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28171ef3-d2d3-45b0-b599-9153c44f5320" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/maze2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/random/algos/WordPath.java" afterPath="$PROJECT_DIR$/src/main/java/random/algos/WordLadder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="28171ef3-d2d3-45b0-b599-9153c44f5320" name="Default" comment="" />
     <ignored path="random.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WordLadder.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WordLadder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/random/algos/WordLadder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8227848" vertical-offset="90" max-vertical-offset="2100">
+            <state vertical-scroll-proportion="-14.444445" vertical-offset="90" max-vertical-offset="2100">
               <caret line="32" column="44" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="e#20097#20098#0" expanded="true" />
@@ -42,6 +38,18 @@
                 <element signature="e#22354#22370#0" expanded="true" />
                 <element signature="e#22427#22444#0" expanded="true" />
                 <element signature="e#23388#23396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LIS.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/random/algos/LIS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.729572" vertical-offset="105" max-vertical-offset="945">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -326,6 +334,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/maze2.txt" />
         <option value="$PROJECT_DIR$/src/main/java/random/algos/LCS.java" />
         <option value="$PROJECT_DIR$/src/main/java/random/algos/WordLadder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/random/algos/LIS.java" />
       </list>
     </option>
   </component>
@@ -527,7 +536,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.wordpath">
+  <component name="RunManager" selected="Application.lis">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -786,7 +795,7 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="wordpath" type="Application" factoryName="Application">
+    <configuration default="false" name="wordladder" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="random.algos.WordLadder" />
       <option name="VM_PARAMETERS" value="" />
@@ -837,10 +846,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.wordpath" />
+    <configuration default="false" name="lis" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="random.algos.LIS" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="random" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.wordladder" />
       <item index="1" class="java.lang.String" itemvalue="Application.maze" />
       <item index="2" class="java.lang.String" itemvalue="Application.lcs" />
+      <item index="3" class="java.lang.String" itemvalue="Application.lis" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -853,12 +880,12 @@
       <changelist id="28171ef3-d2d3-45b0-b599-9153c44f5320" name="Default" comment="" />
       <created>1410730189594</created>
       <updated>1410730189594</updated>
-      <workItem from="1410730191232" duration="15581000" />
+      <workItem from="1410730191232" duration="18778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15581000" />
+    <option name="totallyTimeSpent" value="18778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
@@ -966,17 +993,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/random/algos/LCS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="1110">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/random/algos/WordLadder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8227848" vertical-offset="90" max-vertical-offset="2100">
+        <state vertical-scroll-proportion="-14.444445" vertical-offset="90" max-vertical-offset="2100">
           <caret line="32" column="44" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="e#20097#20098#0" expanded="true" />
@@ -988,6 +1007,24 @@
             <element signature="e#22354#22370#0" expanded="true" />
             <element signature="e#22427#22444#0" expanded="true" />
             <element signature="e#23388#23396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/random/algos/LCS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="1110">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/random/algos/LIS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.729572" vertical-offset="105" max-vertical-offset="945">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
