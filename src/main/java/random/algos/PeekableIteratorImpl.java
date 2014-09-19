@@ -39,13 +39,13 @@ public class PeekableIteratorImpl<E> implements PeekableIterator<E> {
             throw new NoSuchElementException();
         }
 
-        // After this step next should point to the first element of the list
-        E next = peek();
+        // After this step 'toReturn' should point to the first element of the list
+        E toReturn = peek();
 
         // remove top
         remove();
 
-        return next;
+        return toReturn;
     }
 
     @Override
