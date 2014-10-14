@@ -75,19 +75,16 @@ public class WordLadder {
         }
         if (word1.equals(word2)) return 0;
         WordGraph graph = new WordGraph();
-        System.out.println("graphsize = " + graph.vertices().size());
-        System.out.println("adj list for " + word1 + " = " + graph.adj(word1));
-        int length = 0;
         boolean pathFound = false;
         LinkedList<String> queue = new LinkedList<String>();
         List<String> visited = new ArrayList<String>();
         HashMap<String, String> prev = new HashMap<String, String>();
         HashMap<String, Integer> distTo = new HashMap<String, Integer>();
-        queue.push(word1);
+        queue.add(word1);
         visited.add(word1);
         distTo.put(word1, 1);
         while (!queue.isEmpty()) {
-            String popped = queue.pop();
+            String popped = queue.remove();
             if (popped.equals(word2)) {
                 pathFound = true;
                 break;
@@ -97,7 +94,7 @@ public class WordLadder {
                 for (String adjacent : adjacents) {
                     if (!visited.contains(adjacent)) {
                         visited.add(adjacent);
-                        queue.push(adjacent);
+                        queue.add(adjacent);
                         prev.put(adjacent, popped);
                         distTo.put(adjacent, distTo.get(popped) + 1);
                     }
@@ -114,9 +111,11 @@ public class WordLadder {
             path.add(last);
         }
 
-        print(path);
+        Collections.reverse(path);
 
-        System.out.println("distto = " + distTo.get(word2));
+        System.out.println("Shortest path from " + word1 + " to " + word2 + ": ");
+        print(path);
+        System.out.println("Length of shortest path from " + word1 + " to " + word2 + ": " + distTo.get(word2));
         return path.size();
     }
 
@@ -124,6 +123,7 @@ public class WordLadder {
         for (String vertex : visited) {
             System.out.print(vertex + " ");
         }
+        System.out.println();
     }
 
 
